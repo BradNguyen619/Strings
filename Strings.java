@@ -1,33 +1,14 @@
-
-/**
- * Write a description of class Strings here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class Strings
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Strings
-     */
-    public Strings()
+    public static void main(String[] args)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        String string1 = "I am a string" ;
+        String string2 = string1 ;
+        String string3 = "I am also a string" ;
+        boolean stringsEqual = string1.equals(string3) ;
+        System.out.println(string1) ;
+        System.out.println(string2) ;
+        System.out.println(string3) ;
+        System.out.println(stringsEqual) ;
     }
 }
